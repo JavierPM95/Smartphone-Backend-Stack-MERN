@@ -1,0 +1,31 @@
+@url = http://localhost:4100
+### FIND ALL
+GET {{url}}/
+
+### FIND ONE
+GET {{url}}/5fed66995cb473291c9726a4
+
+### CREATE
+POST {{url}}/
+Content-Type: application/json
+
+{
+    "name": "Apple iPhone 12 Pro Max",
+    "urlImg": "https://cdn-files.kimovil.com/phone_front/0005/28/thumb_427491_phone_front_big.jpeg",
+    "screenDimention": "6.7",
+    "cpu": "A14",
+    "power": "3969 mAh",
+    "mainCamera": "12 Mpx"
+}
+
+### DELETE
+DELETE {{url}}/5fed6fc45e85c9428c1fd7fb
+
+### UPDATE
+PUT {{url}}/5fed66995cb473291c9726a4
+Content-Type: application/json
+
+{
+    "name": "Xiaomi Redmi Note 8",
+    "power": "4000 mAh"
+}
