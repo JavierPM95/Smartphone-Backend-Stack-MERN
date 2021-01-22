@@ -23,12 +23,12 @@ const smartphoneSchema = new Schema({
         trim: true
     },
     power: {
-        type: String,
+        type: Number,
         require: true,
         trim: true
     },
     mainCamera: {
-        type: String,
+        type: Number,
         require: true,
         trim: true
     }

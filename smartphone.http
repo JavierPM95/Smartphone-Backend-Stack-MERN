@@ -22,10 +22,10 @@ Content-Type: application/json
 DELETE {{url}}/5fed6fc45e85c9428c1fd7fb
 
 ### UPDATE
-PUT {{url}}/5fed66995cb473291c9726a4
+PUT {{url}}/5fed740003d45835f462e2fd
 Content-Type: application/json
 
 {
-    "name": "Xiaomi Redmi Note 8",
-    "power": "4000 mAh"
+    "mainCamera": "12",
+    "power": "3969"
 }
